@@ -1,1 +1,3 @@
 # HW-1-Text-Mining
+This program was run in a Python IDE, Jupyter Notebooks, and imported the NLTK libraries to tokenize the Moby Dick raw text file. The code also summarizes brief descriptions of unique tokens, unique verb token counts, etc.
+Also, a spelling recommender is included towards the bottom of the code. The program detects user inputs, assigned to the variable user_inputs, and the words are corrected using edit distance. The three words autocorrected are "validate", "algebra", "system". The three words in the user_input variable line can be adjusted to preference. The line below prompts the autocorrect command and subsequently prints the corrected words through edit distance.
